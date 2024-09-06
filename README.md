@@ -17,7 +17,7 @@ ASMARA adalah aplikasi Android berbasis **Kotlin** yang memungkinkan masyarakat 
 ### 1. Clone Repository
 Clone project ini dari repository ke lokal mesin kamu dengan perintah berikut:
 ```bash
-[git clone https://github.com/username/asmara-app.git](https://github.com/kevinalfito69/ASMARA-Android.git)
+https://github.com/kevinalfito69/ASMARA-Android.git
 ```
 
 ### 2. Buka Project di Android Studio
