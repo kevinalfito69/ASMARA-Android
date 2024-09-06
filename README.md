@@ -1,6 +1,6 @@
 # ASMARA - Aspirasi Masyarakat
 
-ASMARA adalah aplikasi Android berbasis **Kotlin** yang memungkinkan masyarakat menyampaikan aspirasi, saran, dan keluhan secara langsung kepada pihak berwenang. Aplikasi ini bertujuan untuk meningkatkan komunikasi antara masyarakat dan pemerintah dalam hal pelayanan publik dan kebijakan.
+
 
 ---
 
