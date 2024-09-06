@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_home">
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="com.example.asmara.ui.homepage.home.HomeFragment"
+        android:label="@string/title_home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_navigation_home_to_aspirasiFragment"
+            app:destination="@id/aspirasiFragment" />
+        <action
+            android:id="@+id/action_navigation_home_to_identitasFragment"
+            app:destination="@id/identitasFragment" />
+        <action
+            android:id="@+id/action_navigation_home_to_infoFragment"
+            app:destination="@id/infoFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/navigation_profile"
+        android:name="com.example.asmara.ui.homepage.profile.ProfileFragment"
+        android:label="fragment_profile"
+        tools:layout="@layout/fragment_profile" >
+        <action
+            android:id="@+id/action_navigation_profile_to_gantiPasswordFragment"
+            app:destination="@id/gantiPasswordFragment"
+            app:enterAnim="@android:anim/fade_in"
+            app:exitAnim="@android:anim/slide_out_right" />
+        <action
+            android:id="@+id/action_navigation_profile_to_editProfileFragment"
+            app:destination="@id/editProfileFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/aspirasiFragment"
+        android:name="com.example.asmara.ui.homepage.aspirasi.AspirasiFragment"
+        android:label="fragment_aspirasi"
+        tools:layout="@layout/fragment_aspirasi" />
+    <fragment
+        android:id="@+id/identitasFragment"
+        android:name="com.example.asmara.ui.homepage.identitas.IdentitasFragment"
+        android:label="fragment_identitas"
+        tools:layout="@layout/fragment_identitas" >
+        <argument
+            android:name="nik"
+            app:argType="string" />
+    </fragment>
+    <fragment
+        android:id="@+id/gantiPasswordFragment"
+        android:name="com.example.asmara.ui.homepage.profile.GantiPasswordFragment"
+        android:label="fragment_ganti_password"
+        tools:layout="@layout/fragment_ganti_password" />
+    <fragment
+        android:id="@+id/editProfileFragment"
+        android:name="com.example.asmara.ui.homepage.profile.EditProfileFragment"
+        android:label="fragment_edit_profile"
+        tools:layout="@layout/fragment_edit_profile" >
+        <argument
+            android:name="username"
+            app:argType="string" />
+        <argument
+            android:name="email"
+            app:argType="string" />
+    </fragment>
+    <fragment
+        android:id="@+id/infoFragment"
+        android:name="com.example.asmara.ui.homepage.info.InfoFragment"
+        android:label="fragment_info"
+        tools:layout="@layout/fragment_info" />
+
+</navigation>

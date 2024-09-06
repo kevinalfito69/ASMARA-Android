@@ -1,0 +1,21 @@
+package com.example.asmara.api.response
+
+import com.google.gson.annotations.SerializedName
+
+data class UpdateWargaResponse(
+
+	@field:SerializedName("nik")
+	val nik: String? = null,
+
+	@field:SerializedName("nomor_telepon")
+	val nomorTelepon: String? = null,
+
+	@field:SerializedName("nama_lengkap")
+	val namaLengkap: String? = null,
+
+	@field:SerializedName("tanggal_lahir")
+	val tanggalLahir: Any? = null,
+
+	@field:SerializedName("alamat")
+	val alamat: String? = null
+)

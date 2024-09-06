@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Asmara</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_profile">Profile</string>
+    <string name="nik">NIK</string>
+    <string name="password">Password</string>
+    <string name="daftar">Daftar</string>
+    <string name="belum_punya_akun">Belum punya akun?</string>
+    <string name="login">Login</string>
+    <string name="lupa_password">Lupa password?</string>
+    <string name="login_sekarang_untuk_melanjutkan">Login sekarang untuk melanjutkan</string>
+    <string name="selamat_datang_kembali">Selamat datang kembali</string>
+    <string name="ilustrasi">ilustrasi</string>
+    <string name="pendaftaran">Pendaftaran</string>
+    <string name="daftarkan_nik_anda_untuk_mendapatkan_akun">Daftarkan nik anda untuk mendapatkan akun</string>
+    <string name="register">Register</string>
+    <string name="email">Email</string>
+    <string name="sudah_punya_akun">Sudah punya akun?</string>
+    <string name="icon_ilustration">icon ilustration</string>
+    <string name="username">Username</string>
+    <string name="logout">Logout</string>
+    <string name="nik_s">NIK: %s</string>
+    <string name="alamat_s">Alamat: %s</string>
+    <string name="konfirmasi_password">Konfirmasi password</string>
+    <string name="lengkapi_data_diri_anda">Lengkapi Data diri anda</string>
+    <string name="register_berhasil">Pendaftaran berhasil</string>
+    <string name="register_berhasil_pesan">Silahkan melakukan login dengan akun yang telah berhasil di daftarkan.</string>
+    <string name="email_s">Email: %s</string>
+</resources>
